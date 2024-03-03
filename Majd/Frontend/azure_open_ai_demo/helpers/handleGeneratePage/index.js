@@ -1,4 +1,4 @@
-// Function to handle the /generateelement API call
+// Function to handle the /generatepage API call
 const handleGeneratePage = async () => {
   try {
     const response = await fetch("http://localhost:8080/generatepage", {
