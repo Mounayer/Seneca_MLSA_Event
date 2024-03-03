@@ -1,0 +1,22 @@
+{
+  "name": "majd_seneca_mlsa_event",
+  "version": "1.0.0",
+  "description": "Demonstrating Azure OpenAI Services",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Majd Al Mnayer",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/openai": "^1.0.0-beta.10",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "openai": "^4.24.7",
+    "stoppable": "^1.1.0"
+  }
+}
