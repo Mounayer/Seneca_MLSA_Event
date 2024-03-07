@@ -21,7 +21,12 @@ Join us at the Microsoft Learn Event: "Generative AI and Azure OpenAI." Explore 
 
 ## Majd's Demo
 
-The app generates html elements, full html pages that follow design principles, and you can converse with it too! All thanks to Azure OpenAI and their easily accessible GPT models.
+Thanks to Azure OpenAI and their easily accessible GPT models, this app can do the following:
+- Allows you to talk with a GPT-model.
+- Generates html element designs using CSS.
+- Generates entire web pages that follow design principles with one click.
+
+And the best thing is, you can see the code as well!
 
 ### Prerequisites
 
