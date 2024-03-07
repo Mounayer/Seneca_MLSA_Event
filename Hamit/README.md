@@ -1,9 +1,14 @@
 # Building LLMs powered Apps using Azure OpenAI 
 
-## Setup
+### Prerequisites
 
-1. Change the Directory
+Python Version:
+Python 3.7 or higher is required.
+
+### Setup
+1. Clone the Repository
 ```
+git clone https://github.com/Mounayer/Seneca_MLSA_Event.git
 cd Hamit
 ```
 
@@ -11,14 +16,12 @@ cd Hamit
 ```
 pip install -r requirements.txt
 ```
-3. Configure Azure OpenAI Credentials - an `.env` file in the root of the project with following Environment Variables
+
+3. Configure Environment
 ```
-AZURE_OPENAI_ENDPOINT=
-AZURE_OPENAI_API_KEY=
-AZURE_DEPLOYMENT_NAME=
-AZURE_API_VERSION=
+cp .env.example .env
 ```
-4. Run the Scripts
+4. Run the scripts
 ```python
 python demo_tweet_generator.py
 ```

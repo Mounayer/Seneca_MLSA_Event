@@ -50,3 +50,43 @@ Frontend:
 Backend:
 
     npm run dev
+
+## Hamit's Demo
+The Project consists of two small LLM powered apps built using minimal lines of code.
+
+1. Tweet Generator: Generate a tweet based on events, topics, hashtags specified by user. Tone and Style of the tweet can be configured by User on Go.
+
+2. Video Summarizer: Paste the link of the YouTube Video and it summarizes the content of the video for you. See the Key Highlights and Summary of any Video in seconds
+
+The Frontend is configured using [Gradio](https://www.gradio.app) - *Awesome tool*
+### Prerequisites
+
+Python Version:
+Python 3.7 or higher is required.
+
+### Setup
+1. Clone the Repository and change the directory
+```
+git clone https://github.com/Mounayer/Seneca_MLSA_Event.git
+cd Hamit
+```
+
+2. Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+3. Configure Environment
+```
+cp .env.example .env
+```
+
+4. Run the scripts
+- To run Tweet Generator
+```python
+python demo_tweet_generator.py
+```
+- To run Video Summarizer
+```python
+python demo_video_summarizer.py
+```
