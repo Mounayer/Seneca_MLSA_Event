@@ -23,7 +23,7 @@ Join us at the Microsoft Learn Event: "Generative AI and Azure OpenAI." Explore 
 
 Thanks to Azure OpenAI and their easily accessible GPT models, this app can do the following:
 - Allows you to talk with a GPT-model.
-- Generates html element designs using CSS.
+- Generates HTML element designs using CSS.
 - Generates entire web pages that follow design principles with one click.
 
 And the best thing is, you can see the code as well!
